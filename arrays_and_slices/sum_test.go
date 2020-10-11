@@ -1,11 +1,11 @@
-package main
+package arrays_and_slices
 
-import
+import (
 	"testing"
+)
 
-
-func TestSum (t *testing.T) {
-	numbers := []int {1,2,3,4,5}
+func TestSum(t *testing.T) {
+	numbers := []int{1, 2, 3, 4, 5}
 
 	got := Sum(numbers)
 	want := 15

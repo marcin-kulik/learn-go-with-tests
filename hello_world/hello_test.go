@@ -33,7 +33,7 @@ func TestHello(t *testing.T) {
 		checkIfValidResult(t, got, want)
 	})
 
-	t.Run("in French", func(t *testing.T){
+	t.Run("in French", func(t *testing.T) {
 		got := Hello("Juan", "French")
 		want := "Bonjour, Juan"
 
